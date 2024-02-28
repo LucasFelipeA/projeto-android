@@ -47,7 +47,7 @@ header{
     background-image:linear-gradient(to top, var(--cor5),var(--cor3)); 
     min-height: 150px;
     text-align: center;
-    padding-top: 30px;
+    padding-bottom: 10px;
 }
 header >h1{
     color: white;
@@ -79,6 +79,9 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+    display: inline-block;
+    min-height: 10px;
+    max-height: 6px;
 }
 nav > a:hover{
     background-color: var(--cor3);
